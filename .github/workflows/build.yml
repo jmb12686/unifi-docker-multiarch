@@ -48,7 +48,7 @@ jobs:
         name: Checkout jmb12686/unifi-docker master
         uses: actions/checkout@v2
         with:
-          repository: jmb12886/unifi-docker
+          repository: jmb12686/unifi-docker
           path: unifi-docker              
       -
         name: Docker Buildx (no push)
