@@ -25,10 +25,10 @@ jobs:
       -
         name: Checkout jacobalberty/unifi-docker tag 5.12.66
         uses: actions/checkout@v2
-          with:
-            repository: jacobalberty/unifi-docker
-            ref: '5.12.66'
-            path: unifi-docker
+        with:
+          repository: jacobalberty/unifi-docker
+          ref: '5.12.66'
+          path: unifi-docker
       -
         # https://github.com/crazy-max/ghaction-docker-buildx
         # sha = https://github.com/crazy-max/ghaction-docker-buildx/releases/tag/v1.0.4

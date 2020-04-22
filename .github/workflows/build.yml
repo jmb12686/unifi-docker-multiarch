@@ -40,10 +40,10 @@ jobs:
       -
         name: Checkout jacobalberty/unifi-docker tag 5.12.66
         uses: actions/checkout@v2
-          with:
-            repository: jacobalberty/unifi-docker
-            ref: '5.12.66'
-            path: unifi-docker        
+        with:
+          repository: jacobalberty/unifi-docker
+          ref: '5.12.66'
+          path: unifi-docker        
       -
         name: Docker Buildx (no push)
         run: |
