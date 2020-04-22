@@ -33,8 +33,7 @@ jobs:
         name: Checkout jmb12686/unifi-docker master
         uses: actions/checkout@v2
         with:
-          repository: jmb12886/unifi-docker
-          ref: '5.12.66'
+          repository: jmb12686/unifi-docker
           path: unifi-docker
       -
         # https://github.com/crazy-max/ghaction-docker-buildx
