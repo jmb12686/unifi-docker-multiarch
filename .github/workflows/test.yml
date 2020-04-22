@@ -22,11 +22,18 @@ jobs:
         # https://github.com/actions/checkout
         name: Checkout
         uses: actions/checkout@v2
+      # -
+      #   name: Checkout jacobalberty/unifi-docker tag 5.12.66
+      #   uses: actions/checkout@v2
+      #   with:
+      #     repository: jacobalberty/unifi-docker
+      #     ref: '5.12.66'
+      #     path: unifi-docker
       -
-        name: Checkout jacobalberty/unifi-docker tag 5.12.66
+        name: Checkout jmb12686/unifi-docker master
         uses: actions/checkout@v2
         with:
-          repository: jacobalberty/unifi-docker
+          repository: jmb12886/unifi-docker
           ref: '5.12.66'
           path: unifi-docker
       -
